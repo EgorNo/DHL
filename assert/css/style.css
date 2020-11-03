@@ -1,0 +1,785 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 1920px;
+
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Header */
+.header {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-height: 50px;
+
+    background: #ba0000;
+}
+
+.header__inner {
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__block {
+    height: 50px;
+    padding-top: 18px;
+
+    
+}
+
+.header__select_text {
+    width: 100%;
+    border: 0;
+    background: #ba0000;
+    color: white;
+}
+
+.header__block_rigth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__main_menu {
+    height: 100%;
+    max-height: 120px;
+
+    background: #ffcc00;
+}
+
+.header__slider {
+    height: 800px;
+    background: url("../image/header__background.png") center no-repeat;
+}
+
+.header__point__link {
+    position: relative;
+    top: 45px;
+
+    letter-spacing: 1.5px;
+
+    text-decoration: none;
+    font-size: 12px;
+
+    border-style: solid;
+    border-radius: 40px;
+
+    padding: 15px;
+    margin:0 20px 0 0;
+    
+    text-transform: uppercase;
+}
+
+.header__point__link__learn__more {
+    color: red;
+    background: #ffcc00;
+}
+
+.header__point__link__dhl__worldwide {
+    color: #ffffff;
+}
+
+/* container */
+.conteiner {
+    position: relative;
+    margin: 0 auto;
+
+    width: 1170px;
+}
+
+/* contact */
+.contact {
+    margin-right: 30px;
+}
+
+.contact__center{
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+/* Nav*/
+.nav {
+    padding-top: 50px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #ba0000;
+    text-transform: uppercase;
+
+    margin-right: 50px;
+    
+}
+
+.search__button {
+    position: relative;
+    left: 80px;
+}
+
+/* img */ 
+.dhl_logo {
+    padding-top: 35px;
+}
+
+/* text */
+.text {
+    width: 100%;
+    max-width: 470px;
+    font-size: 70px;
+    color: white;
+    padding-top: 60px;
+    margin: 0;
+    font-weight: 700;  
+    
+}
+
+.text:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    margin-top: 60px;
+    
+
+    background-color: #ffcc00;
+}
+
+.text__inner {
+    width: 100%;
+    max-width: 770px;
+    font-size: 20px;
+    color: #ffcc00;
+    padding-top: 40px;
+    margin: 0;
+}
+
+.text__inner__inner {
+    margin-top: 40px;
+}
+
+.text__text {
+    text-decoration: none;
+    margin: 0 30px 0 0;
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.text__point {
+    color:#ffcc00;
+}
+
+/* Services */
+
+.services {
+    margin-top: 1000px;
+}
+
+.services__text {
+    font-size: 50px;
+    font-weight: 900;
+    margin: 140px 0 115px 0;
+}
+
+.services__block {
+    display: flex;
+}
+
+.services__block__card {
+    margin-right: 30px;
+}
+
+.services__block__card__red {
+    width: 270px;
+    padding: 0 30px;
+    max-height: 340px;
+
+    background: red;
+}
+
+.services__block__text {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #ff0000;
+    
+}
+
+.services__block__text__inner {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.services__block__text__footer {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+
+.services__block__card__red__h2 {
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.services__block__card__red__h2:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 2px;
+
+    background: #ffcc00;
+    margin-top: 30px;
+}
+.services__block__text__inner__article{
+    color: white;
+    padding-bottom: 40px;
+}
+
+.services_red {
+    position: relative;
+    height: 50px;
+    width: 210px;
+    background: #9d0000;
+    margin-bottom: 35px;
+    
+}
+
+.text__text__block__red {
+    position: relative;
+    width: 100%;
+    border-style: solid;
+    border-radius: 40px;
+    text-transform: uppercase;
+    
+    background-color: #ffcc00;
+    color: #ff0000; 
+    text-decoration: none;
+
+    font-size: 12px;
+    padding: 10px 45px 10px 45px ;
+}
+
+
+/* About */
+.about {
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+    max-height: 1640px;
+}
+.about__img {
+    position: relative;
+    height: 700px;
+    background: url("../image/about_background.png") center, no-repeat;
+}
+
+.about__image__play {
+    position: absolute;
+    left: 540px;
+    top: 250px;
+}
+
+.about__card__one {
+    position: relative;
+    display: flex;
+    top: 500px;
+}
+
+.about__card {
+    margin-right: 30px;
+    box-shadow: 0px 25px 44px -29px #000000;
+}
+
+.about__card__text {
+    font-size: 20px;
+    font-weight: 900;
+    color: red;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.about__card__li  {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.about__express {
+    margin-top: 310px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__express__filter {
+    margin-top: 0;
+}
+
+.about__express__block {
+    height: 100%;
+    max-height: 570px;
+}
+
+.about__express__select {
+    background: #ba0000;
+    
+}
+
+.about__express__block__select {
+    width: 490px;
+    padding: 20px;
+
+    color:white;
+    background: #ba0000;
+    margin: 40px 40px 20px 40px;
+
+}
+
+.about__text {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.about__button {
+    text-decoration:none;
+
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 20px 0 20px 0;
+}
+
+.about__button__red {
+    color: red;
+    padding-left: 110px;
+    padding-right: 110px;
+    background: #ba0000;
+}
+
+.about__button__yellow {
+    color: #ba0000;
+    padding-left: 115px;
+    padding-right: 115px;
+    background: #ffcc00;
+}
+
+/* Features */
+.features {
+    width: 100%;
+    max-width: 1920px;
+    margin-top: 100px;
+
+    height: 350px;
+
+    background: #ba0000;
+
+}
+.features__inner__text {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding:100px 0 40px 0 ;
+}
+
+.features__inner__text__p {
+    width: 100%;
+    max-width: 730px;
+
+    color: white;
+    font-size: 16px;
+}
+
+.features_text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features__href {
+
+    height: 55px;
+    width: 155px;
+
+    margin-top:170px;
+    padding: 20px 30px 0 20px;
+
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-decoration: none;
+    color: #ffffff;
+
+    background: #9d0000;
+
+    border-radius: 40px;
+
+}
+
+/* Over footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.over__footer {
+    margin-top: 70px;
+}
+
+.over__footer__img {
+    margin-right: 20px;
+    border-style: solid;
+
+    border-color: #eedbdb;
+}
+
+.over__footer__img:hover {
+    border-style: #ba0000;
+}
+
+.over__footer__img:last-child {
+    margin-right: 0;
+}
+
+
+/* footer */
+.footer {
+    margin-top: 70px;
+}
+
+.footer__contact__center {
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.footer__text {
+    font-size: 20px;
+    color: #ff0000;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.footer__text__li {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.footer__yellow {
+    color: #ffcc00;
+}
+
+.footer__facebook {
+    color:#017edf;
+}
+
+@media (max-width: 1280px) {
+
+
+    /* header */
+    .header__inner {
+        justify-content: center;
+    }
+
+    /* content */
+    .contact__center {
+        padding-left: 30px;
+    }
+
+    /* footer */
+    .footer__img {
+        width: 250px;
+    }
+
+    .footer__contact__center {
+        margin-top: 0;
+    }
+
+}
+
+
+@media (max-width: 990px) {
+
+    /* nav */
+    .nav__link {
+        margin-right: 10px;
+    }
+
+    /* dhl_logo */
+    .dhl_logo {
+        margin-left: -150px;
+        margin-right: 20px;
+    }
+
+    /* text */
+    .text {
+        font-size: 60px;
+        padding-top: 40px;
+    }
+
+    /* conteiner */
+    .conteiner {
+        margin-left: 30px;
+        max-width: 950px;
+    }
+
+    /* header */
+    
+
+    .header__slider {
+        height:  700px;
+    }
+
+    /* services */
+    .services__text {
+        margin-top: -70px;
+        margin-bottom: 70px;
+    }
+
+    .services__block {
+        display: block;
+    }
+
+    .services__block__text {
+        font-size: 40px;
+    }
+
+    .services__block__one__img {
+        width: 600px;
+    }
+
+    .services__block__text__inner {
+        font-size: 35px;
+        width: 900px;
+    }
+
+    .services__block__text__footer {
+        font-size: 35px;
+        width: 990px;
+    }
+
+    .services__block__card__red {
+        width: 940px;
+        height: 700px;  
+    }
+
+    .services__block__card__red__h2 {
+        font-size: 40px;
+        padding-top: 30px;
+    }
+
+    .services__block__card__red__h2:after {
+        width: 120px;
+        height: 5px;
+        margin-top: 50px;
+    }
+
+    .services__block__text__inner__article {
+        padding-bottom: 10px;
+    }
+
+    .services__block__text__footer {
+        width: 850px;
+    }
+
+    .text__text__block__red {
+        position: relative;
+        left: 500px;
+        top: -80px;
+
+        font-size: 20px;
+        padding: 15px 50px 15px 50px ;
+    }
+
+    /* About */
+    
+
+    .about__card__one {
+        display: block;
+    }
+
+    .about__card {
+        box-shadow: none;
+    }
+
+    .about__card__img{
+        width: 600px;
+        
+    }
+
+    .about__first {
+        margin-top: 300px;
+    }
+
+    .about__card__text {
+        font-size: 45px;
+
+    }
+    .about__card__li {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    
+    .about__express {
+        margin-top: 2400px;
+        display: block;
+    }
+
+    .about__express__select {
+        width: 720px;
+    }
+
+    .about__button  {
+        font-size: 30px;
+    }
+
+    .about__button__red {
+        padding-right: -2px;
+    }
+
+    .about__express__block_img {
+        width: 720px;
+        margin-top: 50px;
+    }
+
+    /* features */
+    .features_text {
+        margin-top: 2900px;
+    }
+
+    .over__footer__img {
+        display: block;
+        margin-top: 20px;
+        width: 500px;
+    }
+
+    .footer__img {
+        display: none;
+    }
+
+    .footer__contact__center {
+        margin-bottom: 50px;
+    }
+
+    .features__href {
+        margin-right: 75px;
+    }
+    
+    .footer {
+        margin-right: 70px;
+    }
+
+    .body {
+        width: 50%;
+        max-width: 970px;
+    }
+}
+
+
+@media (max-width: 770px) {
+
+    /* conteiner */
+
+    .conteiner {
+        max-width: 740px;
+    }
+
+
+    /* search */
+    .search__button {
+        left: 0;
+    }
+
+    /* dhl logo */
+
+    .dhl_logo {
+        margin-left: -10px;
+    }
+
+    /* services  */
+    .services__text {
+        margin: 0;
+        margin-top: -170px;
+    }
+
+    .services__block__text {
+        font-size: 30px;
+    }
+
+    .services__block__one__img {
+        width: 400px;
+    }
+
+    .services__block__text__inner {
+        font-size: 25px;
+        width: 700px;
+    }
+
+    .services__block__text__footer {
+        width: 250px;
+    }
+    
+    .services__block__card__red {
+        width: 640px;
+    }
+
+    .services_red {
+        margin-bottom: 40px;
+    }
+
+    /* text */
+    .text__text__block__red {
+        left: 300px;
+        font-size: 15px;
+    }
+
+    /* about */
+
+    .about__button {
+        margin-top: -2200px;
+    }
+
+    .about__express {
+        margin-top: 0;
+    }
+
+    .about__image__play {
+        display: none;  
+    }
+
+    .about__img {
+        display: none;
+    }
+
+    /* features */
+    .features_text {
+        margin-top: 0;
+    }
+
+    .features__inner__text {
+        padding-top: 30px;
+
+    }
+
+    /* footer */
+
+    .over__footer__img {
+        display: inline;
+        width: 300px;
+    }
+
+}
